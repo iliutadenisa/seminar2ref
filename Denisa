@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Denisa Iliuta </title>
+        
+    </head>
+ 
+     <style>
+        table, th, td {
+        border: 1px solid black;
+        }
+    </style>
+ 
+    <body>
+    <img src="file://D:/Facultate/cv/Denisa.jpg"  alt="Denisa"   style="width:128px;height:128px;">
+    <body style="background-color:Snow;">
+    <h1 style="font-size:125%;"> Denisa Ioana </h1>
+    <i><small>Informatii:</small></i>
+    <li>ASE</li>
+    <li>22 ani</li>
+    <li>Informatica economica</li>
+    <li><a href="https://www.facebook.com/iliuta.denisa/html/">Facebook</a></li>
+
+    
+    <table style="width:25%">
+    <tr>
+     <th>Limbaj</th>
+     <th>Procent</th>
+    </tr>
+  <tr>
+    <td>C++</td>
+    <td>50%</td>
+  </tr>
+   <tr>
+    <td>Java</td>
+    <td>30%</td>
+  </tr>
+
+</table>
+    
+    
+    <h2 style="font-size:125%;">Cont vizitator</h2>
+    <form>
+      Nume:
+      <br>
+      <input type="text" name="nume">
+      <br>
+      Prenume:
+      <br>
+      <input type="text" name="prenume">
+      <br>
+      Varsta:
+      <br>
+      <input type="text" name="varsta"/>
+    </form>
+
+   <form>
+      <input type="radio" name="gender" value="male" checked> M<br>
+      <input type="radio" name="gender" value="female"> F<br>
+  
+    </form> 
+    
+    <p></p><button type="button" onclick="alert('Multumesc pentru vizita!')">OK</button></p>
+    
+    </body>
+</html>
